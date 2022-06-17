@@ -7,6 +7,7 @@
 // 4th op = 00000000
 // since we performed the operation 4 times, we can say that there are 4 '1' bits in the number.
 
+// n & (n - 1) can also be used to identify if n is an exact power of two
 int	hammingWeight(unsigned int n)
 {
 	int	sum;
