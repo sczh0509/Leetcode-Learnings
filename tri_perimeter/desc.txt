@@ -1,0 +1,11 @@
+Largest Perimeter Triangle
+
+Given an integer array, return the largest perimeter of a triangle with a non-zero area, formed from three of these lengths, if it is impossible to form any triangle of a non-zero area, return 0.
+
+
+triangle inequality states that the sum of the length of two sides of a triangle is greater than the length of the remaining side.
+
+say a triangle has sides with length a <= b <= c. The valid condition for these lengths to form a trianle with a non-zero area is where a + b > c (since we already know that c by itself is already greater than a or b ).
+
+So what we can do is sort the array in descending order, identify c and if a + b > c, we can return the largest possible perimeter. 
+
