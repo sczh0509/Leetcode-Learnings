@@ -1,0 +1,5 @@
+Find nearest point that has the same X or Y coordinate
+
+Given two integers, x and y, which represent your current location on a Cartesian grid: (x, y). You are also given an array "points" where each points[i] = [a, b] represents that point exists at (a, b). A point is valid if it shares the same x-coordinate or the same y-coordinate as your location.
+
+Return the index of the valid point with the smallest manhattan distance from your current location. If there are multiple return the valid point with the samllest index. If there are no valid points, return -1.
