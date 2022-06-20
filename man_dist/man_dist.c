@@ -7,17 +7,14 @@ int	nearestValidPoint(int x, int y, int **points, int pointsSize, int *pointsCol
 
 int	main(void)
 {
-	int	*a[5];
-	int	f[] = {1, 2};
-	int	g[] = {3, 1};
-	int	h[] = {2, 4};
-	int	j[] = {2, 3};
-	int	k[] = {4, 4};
-	a[0] = f;
-	a[1] = g;
-	a[2] = h;
-	a[3] = j;
-	a[4] = k;
+	int	*a[] = 
+	{
+		(int[]) {1, 2}, 
+		(int[]) {3, 1},
+		(int[]) {2, 4}, 
+		(int[]) {2, 3}, 
+		(int[]) {4, 4}
+	};
 	int	b = 2;
 
 	
